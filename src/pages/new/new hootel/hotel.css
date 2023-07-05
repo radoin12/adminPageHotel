@@ -1,0 +1,37 @@
+.formFeature {
+    width: 40%;
+     margin-bottom: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      
+   
+
+     
+    }
+   
+}
+.selectRoom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height :20vh;
+    border-radius: 10px;
+    
+    .select{
+        width: 80%;
+      
+        
+    }
+ 
+    .option:hover{
+        background-color: gray;
+        color:white
+    };
+  
+}
